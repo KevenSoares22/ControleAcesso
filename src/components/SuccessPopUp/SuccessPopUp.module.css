@@ -1,0 +1,41 @@
+.successPopUp{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 100vw;   
+    display: flex;
+    opacity: 0;
+    justify-content: center;
+
+    align-items: center;
+    animation: open 3s;
+    background-color: #0000002d ;
+}
+
+.content{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(0, 198, 0) ;
+    border-radius: 20px;
+}
+
+
+
+.content p{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+
+
+@keyframes open {
+    0%{opacity: 0;}
+    25%{opacity: 1;}
+
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}

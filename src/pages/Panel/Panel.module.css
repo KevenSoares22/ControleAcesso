@@ -1,0 +1,100 @@
+.panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.content{
+    display: flex;
+
+    flex-direction: column;
+    width: 400px;
+    height: 180px;
+
+    border-radius: 12px;
+
+    box-shadow: 2px 2px 10px #6e6a6a;
+    padding: 34px;
+}
+
+
+
+
+
+
+
+
+.title{
+    font-size: 25px;
+    font-weight: 600;  
+}
+
+.content input{
+    border: none;
+    width: 100px;
+    border-bottom: 1px solid #4d4d4d;   
+}
+.content input:focus{
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.data{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.invalid, .confirm{
+    color: #ffffff
+
+
+
+}
+
+
+
+.invalid{
+    background-color: #1900ff ;
+
+
+
+}
+
+.confirm{
+    background-color: #23b300 ;
+
+
+
+}
