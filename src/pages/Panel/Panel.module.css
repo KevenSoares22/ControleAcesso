@@ -27,11 +27,13 @@
 
 
 .title{
+    color: #000000;
     font-size: 25px;
     font-weight: 600;  
 }
 
 .content input{
+    background-color: #ffffff;
     border: none;
     width: 100px;
     border-bottom: 1px solid #4d4d4d;   
